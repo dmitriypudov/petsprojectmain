@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.leaflet-control-attribution {
+  @apply tw-hidden !important;
+}
+
+@media (max-width: 390px) {
+  .tw-h-\[850px\] {
+    height: 566px;
+    width: 750px;
+    margin-left: -300px;
+  }
+  .tw-pt-8 {
+    padding-top: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+  }
+  .text-no-wrap {
+    white-space: nowrap;
+    padding-left: 85px;
+  }
+
+  .tw-min-h-\[905px\] {
+    min-width: 1240px;
+  }
+
+  .lozung[data-v-b4e148ca] {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 6px;
+    margin-top: -464px;
+
+  }
+}
